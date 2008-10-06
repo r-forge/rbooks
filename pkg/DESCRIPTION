@@ -1,10 +1,10 @@
 Package: Rbooks
 Type: Package
 Title: Interactive course notes using R
-Version: 0.0.1
-Date: 2008-04-03
+Version: 0.0.2
+Date: 2008-10-05
 Author: Paul Hewson
 Maintainer: <paul.hewson@plymouth.ac.uk>
-Depends: Rpad
+Depends: Rpad,biOps
 Description: This is a repository for interactive course notes using R
 License: GPL version 2 or later

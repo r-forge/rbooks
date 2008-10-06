@@ -32,5 +32,5 @@ At the moment there is (a) something horribly wrong with the image rendering and
 \code{\link[<pkg>:<pkg>-Rpad]{<pkg>}}
 }
 \examples{
-clt()
+##clt()
 }

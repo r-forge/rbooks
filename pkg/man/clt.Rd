@@ -7,7 +7,8 @@ This is a fairly simple demonstration of the central limit theorem, aimed at a s
 \usage{
 clt(overwrite = FALSE)
 }
-\details{
+\details{This file will open an Rpad server, running the clt demonstration.   By default it will use any pre-existing Rpad type files in your workspace.   Don't use the overwrite argument unless you are sure you want a lot of math figures and .Rpad files written to your working directory.   Check things like getwd() and dir() first.}
+\arguments{
   \item{overwrite}{By default, the function will use any version of the course notes it finds in the working directory.   Setting overwrite = TRUE will copy a version from the package}
 }
 \value{
@@ -18,10 +19,12 @@ clt(overwrite = FALSE)
 \note{This work has been funded by an MSOR grant}
 
 \examples{
-clt()
+#library(Rbooks)
+#data(cltbook)
+#clt()
 
 
 }
 
-\keyword{CLT}
+\keyword{misc}
 
